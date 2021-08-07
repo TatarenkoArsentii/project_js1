@@ -108,3 +108,9 @@ if (x ** 2 + y ** 2 > r ** 2) {
 } else {
   console.log("точка находится на окружности");
 }
+console.log("------------------------------------------------");
+
+let num2 = prompt("Введите число");
+
+console.log(String(num2)[0]);
+console.log(num2 % 10);
